@@ -1,6 +1,7 @@
 # MRL
 
 **MRL w/o MNS**
+
 python main_sin.py --dataset phone --K 1 --loss mrl --ns dns --n_negs 16 --gpu_id 0
 
 python main_sin.py --dataset sport --K 1 --loss mrl --ns dns --n_negs 16 --gpu_id 0
