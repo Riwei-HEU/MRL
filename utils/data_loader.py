@@ -21,7 +21,7 @@ train_item_pop = defaultdict(int)
 test_item_pop = defaultdict(int)
 valid_item_pop = defaultdict(int)
 
-dataset_list = ['ml', 'phone', 'sport', 'tool', 'beauty', 'gowalla', 'yelp2018', 'amazon']
+dataset_list = ['ml100k', 'phone', 'sport', 'tool', 'beauty', 'gowalla', 'yelp2018', 'amazon']
 
 
 def read_cf_amazon(file_name):
